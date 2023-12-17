@@ -8,11 +8,11 @@
  * servidor. */
 // @ts-ignore
 firebase.initializeApp({
-  apiKey: "AIzaSyA-eOaSsTIPPo800kImE1QxnwQu1r298cY",
-  authDomain: "base-datos-prograweb.firebaseapp.com",
-  projectId: "base-datos-prograweb",
-  storageBucket: "base-datos-prograweb.appspot.com",
-  messagingSenderId: "136880310635",
-  appId: "1:136880310635:web:295f610ea52e088df2642e",
-  measurementId: "G-0LHNKJT1HT"
+    apiKey: "AIzaSyA-eOaSsTIPPo800kImE1QxnwQu1r298cY",
+    authDomain: "base-datos-prograweb.firebaseapp.com",
+    projectId: "base-datos-prograweb",
+    storageBucket: "base-datos-prograweb.appspot.com",
+    messagingSenderId: "136880310635",
+    appId: "1:136880310635:web:295f610ea52e088df2642e",
+    measurementId: "G-0LHNKJT1HT"
 });
