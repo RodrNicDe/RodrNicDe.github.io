@@ -3,6 +3,7 @@ class MiFooter
   connectedCallback() {
     this.innerHTML = /* html */
       `<p>
+        & 2024
         Rodrigo Nicolas Zavala Detor
       </p>`;
   }
