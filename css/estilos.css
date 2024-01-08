@@ -13,11 +13,14 @@ body {
   max-width: 640px;
   margin: 0 auto;
   padding: 0.5rem;
+  background-color: #f5f5f5;
+  display: flex;
 }
 
 header {
   position: -webkit-sticky;
   position: sticky;
+  margin-bottom: 20px;
   top: 0;
   background-color:
     var(--color-header);
@@ -40,6 +43,7 @@ header input {
 
 h1 {
   margin: 0.5rem 0;
+  color: #333333;
 }
 
 figure img {
@@ -59,4 +63,24 @@ p label>* {
   font-size: 1rem;
   box-sizing: border-box;
   width: 100%;
+}
+button {
+  background-color: #3498db;
+  color: #ffffff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
 }
